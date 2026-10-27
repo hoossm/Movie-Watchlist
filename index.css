@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: #121212;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+main {}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container {
+    width: min(100% - 4rem, 1400px);
+    margin-inline: auto;
+}
+
+
+/*#################################################*/
