@@ -170,7 +170,6 @@ a {
     background: #666;
 }
 
-/* Keyboard focus, shown on the whole bar */
 .search:focus-within {
     outline: 2px solid #8a8a8a;
     outline-offset: 2px;
@@ -357,7 +356,6 @@ a {
 
 
 
-/* Phones */
 @media (max-width: 599px) {
     .search__field {
         padding-inline: 0.9rem;
@@ -400,7 +398,6 @@ a {
     }
 }
 
-/* Tablets and up: go back to your wider side margins */
 @media (min-width: 600px) {
     .container {
         width: min(100% - 4rem, 1400px);
@@ -423,8 +420,7 @@ a {
     }
 }
 
-/* Your existing 800px block sets .title, .watchlist-page and the card sizes.
-   These lines keep the title scaling in step with it. */
+
 @media (min-width: 800px) {
     .title {
         font-size: 3.7rem;
