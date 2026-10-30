@@ -195,7 +195,19 @@ a {
 }
 
 
+.add-some {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1rem;
+    gap: .5rem;
+}
+
 /*------------------start-explore------------------*/
+
+
+/*---------------------Loader---------------------*/
 
 .loader {
     display: grid;
@@ -224,6 +236,7 @@ a {
     animation: spin 0.8s linear infinite;
 }
 
+
 @keyframes spin {
     to {
         transform: rotate(360deg);
@@ -231,10 +244,10 @@ a {
 }
 
 
+/*---------------------Loader---------------------*/
 
+/*---------------------Result---------------------*/
 
-
-/*--*/
 .result {
     margin-top: 8rem;
 }
@@ -253,6 +266,7 @@ a {
     object-fit: cover;
     flex-shrink: 0;
     border-radius: 2px;
+    color: white;
 }
 
 .movie-info {
@@ -307,6 +321,9 @@ a {
 .mini-text {
     font-size: 0.9rem;
 }
+
+/*---------------------Result---------------------*/
+
 
 
 @media(min-width: 800px) {
