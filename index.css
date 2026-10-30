@@ -35,6 +35,10 @@ a {
     text-decoration: none;
 }
 
+.margin {
+    margin-bottom: 5rem;
+}
+
 .container {
     width: min(100% - 2rem, 1400px);
     margin-inline: auto;
@@ -60,6 +64,7 @@ a {
 }
 
 
+
 .hero::before {
     content: "";
     position: absolute;
@@ -79,7 +84,6 @@ a {
 
 .menu {
     display: flex;
-    padding-top: 5rem;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
@@ -257,9 +261,7 @@ a {
 
 /*---------------------Result---------------------*/
 
-.result {
-    margin-top: 5rem;
-}
+
 
 .moive-box {
     display: flex;
@@ -411,8 +413,8 @@ a {
         padding-top: 5rem;
     }
 
-    .result {
-        margin-top: 8rem;
+    .margin {
+        margin-bottom: 8rem;
     }
 
     .watchlist-page {
